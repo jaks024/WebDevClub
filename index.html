@@ -5,23 +5,25 @@
     <meta charset="utf-8">
 
     <title>MSS WebDev Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Markville Secondary School WebDev Club">
     <link rel="stylesheet" href="cssreset.css">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:551px)" href="style.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width:550px)" href="style_mobile.css" />
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="background">
+        <div class="background" id="background">
             <div class="content-blur"></div>
         </div>
-        <div class="main-wrap">
+        <div class="main-wrap" id="main-wrap">
             <div class="main-text">
                 <h1 class="main-header">MSS WebDev Club</h1>
-                <p class="main-desc">
-                    <a class="main-join-a" href="https://www.youtube.com" target="_blank"><span></span>Join us</span></a> 
-                    and develop websites together.</p>
+                <div class="main-desc-container">
+                    <a class="main-join-a" href="https://www.youtube.com" target="_blank">Join us</a> 
+                    <span class="main-desc">and develop websites together.</span>
+                </div>
             </div>
             <div class="main-announce">
                 <h1 class="main-sub">Objectives</h1>
