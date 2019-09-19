@@ -132,6 +132,7 @@ body{
 
 .main-announce{
     width: 100%;
+    margin-top: 50px;
 }
 
 .main-sub{
@@ -151,13 +152,13 @@ body{
 .main-paragraph-list{
     list-style: none;
     width: 95%;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 5%;
 }
 
 .main-paragraph{
     font-size: 20px;
-    width: 300px;
+    width: 450px;
     transition: all 0.5s ease;
     will-change: auto;
 }
