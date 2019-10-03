@@ -43,7 +43,7 @@ body{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: url("background/shordy.jpg");
+    background: url("background/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(4px);
