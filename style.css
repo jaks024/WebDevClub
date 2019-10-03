@@ -159,7 +159,7 @@ body{
 .main-paragraph{
     font-size: 20px;
     width: 500px;
-    margin-top: 5px;
+    margin-top: 10px;
     transition: all 0.5s ease;
     will-change: auto;
 }
